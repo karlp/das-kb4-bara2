@@ -1,0 +1,48 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 101.6 101.6) (size 50.8 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 7c81bc9d-f306-4c7f-90ce-10f7b22818e4)
+    (property "Sheetname" "keys_mcu" (at 101.6 100.8884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "keys_mcu.kicad_sch" (at 101.6 127.5846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "das-kb4-bara2"
+        (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 101.6 50.8) (size 50.8 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid f457a5c4-270e-459d-a4f0-150cf90e3909)
+    (property "Sheetname" "usb" (at 101.6 50.0884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "usb.kicad_sch" (at 101.6 76.7846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "das-kb4-bara2"
+        (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
