@@ -8,6 +8,12 @@
   )
 
 
+  (text "TODO:\n3v3 reg for mcu\npower supply for mcu\nresistors for LEDs"
+    (at 185.42 93.98 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid a22287d1-1836-4eaa-ae2c-f734d5980a54)
+  )
+
   (sheet (at 101.6 101.6) (size 50.8 25.4) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
