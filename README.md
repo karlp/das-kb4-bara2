@@ -7,3 +7,5 @@ Today, I've had the idea of just making a replacement controller board for it.  
 
 So... Pick a cheap in stock MCU supported by QMK, just go for a plain USB2-HS hub part, and.. profit?
 
+## License
+Consider this "open hardware"
