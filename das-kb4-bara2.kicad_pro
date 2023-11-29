@@ -174,6 +174,7 @@
       "track_widths": [
         0.0,
         0.2,
+        0.3,
         0.5,
         1.27
       ],
@@ -445,6 +446,23 @@
         "track_width": 0.5,
         "via_diameter": 0.8,
         "via_drill": 0.4,
+        "wire_width": 12
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "keyboard-matrix",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(32, 139, 255)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
@@ -475,8 +493,25 @@
         "microvia_drill": 0.1,
         "name": "usb-4l-2313",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(245, 72, 255)",
         "track_width": 0.127,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.127,
+        "diff_pair_gap": 0.127,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.175,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "usb-4l-7628",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(245, 72, 255)",
+        "track_width": 0.175,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -486,8 +521,30 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_assignments": {
+      "+3V3": "Power distribution",
+      "+5V": "Power distribution",
+      "/usb/VD33": "Power distribution",
+      "VBUS": "Power distribution"
+    },
+    "netclass_patterns": [
+      {
+        "netclass": "usb-4l-7628",
+        "pattern": "*/UUP*"
+      },
+      {
+        "netclass": "usb-4l-7628",
+        "pattern": "*/UDS*"
+      },
+      {
+        "netclass": "keyboard-matrix",
+        "pattern": "*key*/CM*"
+      },
+      {
+        "netclass": "usb-4l-7628",
+        "pattern": "UMCU*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
