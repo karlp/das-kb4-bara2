@@ -524,6 +524,7 @@
     "netclass_assignments": {
       "+3V3": "Power distribution",
       "+5V": "Power distribution",
+      "/can/Local3v3": "Power distribution",
       "/usb/VD33": "Power distribution",
       "VBUS": "Power distribution"
     },
@@ -603,6 +604,10 @@
     [
       "f457a5c4-270e-459d-a4f0-150cf90e3909",
       "usb"
+    ],
+    [
+      "a2d5569b-3e38-48fc-9c53-ff19306ffa54",
+      "can"
     ]
   ],
   "text_variables": {}
