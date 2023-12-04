@@ -264,7 +264,7 @@
     (property "lcsc2#" "")
     (path "/7c81bc9d-f306-4c7f-90ce-10f7b22818e4/15ce3070-a95b-46d6-be70-9df8869ebea2")
     (attr smd)
-    (fp_text reference "SW1" (at 0 -3.75) (layer "F.SilkS")
+    (fp_text reference "SW1" (at 0 4) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e78084e0-b0a4-4ffe-8fac-0b6be9f0b5c7)
     )
@@ -2205,10 +2205,10 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ":KICAD7_3DMODEL_DIR:Connector_USB.3dshapes/Generic_A-Receptacle.step"
-      (offset (xyz 3.5 -5.5 3))
+    (model ":KICAD7_3DMODEL_DIR:Connector_USB.3dshapes/USB_A_Receptacle-XKB-u221-041n-1br69-s5.stp"
+      (offset (xyz 3.5 -6 4))
       (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 0))
+      (rotate (xyz 0 -180 0))
     )
   )
 
@@ -2763,10 +2763,10 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ":KICAD7_3DMODEL_DIR:Connector_USB.3dshapes/Generic_A-Receptacle.step"
-      (offset (xyz 3.5 -5.5 3))
+    (model ":KICAD7_3DMODEL_DIR:Connector_USB.3dshapes/USB_A_Receptacle-XKB-u221-041n-1br69-s5.stp"
+      (offset (xyz 3.5 -6 4))
       (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 0))
+      (rotate (xyz 0 -180 0))
     )
   )
 
