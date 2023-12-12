@@ -6,6 +6,7 @@
 
   (title_block
     (title "Das KB4-Bara2")
+    (rev "r2023-12")
     (company "Ekta Labs")
     (comment 1 "http://github.com/karlp/das-kb4-bara2")
   )
