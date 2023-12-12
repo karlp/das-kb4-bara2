@@ -3021,7 +3021,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 99.06 111.76 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8a04eeb0-a8cb-4442-8a2c-3c2fdc1ddd07)
     (property "Reference" "TP2" (at 95.758 106.68 90)
       (effects (font (size 1.27 1.27)))
