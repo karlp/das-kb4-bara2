@@ -17,3 +17,5 @@ Likewise, a couple of landing spaces for that frame that now have parts in them.
 Not huge, but definitely need to be done to move it forwards as far as a "replacement" goes.
 
 Also, the ribbon cable mount needs to move left maybe 5mm, to avoid bending it unnecessarily.
+
+Finally, the USB-C connector shoudl move about 3.5mm down to fit cables better in the keyboard.
