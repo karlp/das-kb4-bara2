@@ -1,6 +1,11 @@
 ## What's it like?
 ![installed side by side](r2023-12-installed1.jpg)
 
+## Firmware
+[My own QMK fork has the single patch needed for this revision](https://github.com/karlp/qmk_firmware/releases/tag/r2023_12-v1.0).  I'm not (currently) planning on submitting this to QMK, as this hardware revision has some issues.
+
+The firmware works perfectly well though.
+
 ## Don't use this one
 I was badly misled that jlc could do double sided assembly for "no" extra price, so I didn't take any real care with it.
 

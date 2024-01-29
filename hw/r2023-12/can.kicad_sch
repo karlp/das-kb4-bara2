@@ -909,12 +909,6 @@
     (pin "3" (uuid e07e937a-f1c6-4706-952e-ba69d0d621c0))
     (instances
       (project "das-kb4-bara2"
-        (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d/f457a5c4-270e-459d-a4f0-150cf90e3909"
-          (reference "D4") (unit 1)
-        )
-        (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d/7c81bc9d-f306-4c7f-90ce-10f7b22818e4"
-          (reference "D4") (unit 1)
-        )
         (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d/a2d5569b-3e38-48fc-9c53-ff19306ffa54"
           (reference "D4") (unit 1)
         )
@@ -940,9 +934,6 @@
     (pin "1" (uuid 318a5dfc-759b-4cff-902c-c2b50db18abe))
     (instances
       (project "das-kb4-bara2"
-        (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d/7c81bc9d-f306-4c7f-90ce-10f7b22818e4"
-          (reference "#PWR044") (unit 1)
-        )
         (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d/a2d5569b-3e38-48fc-9c53-ff19306ffa54"
           (reference "#PWR044") (unit 1)
         )
@@ -981,9 +972,6 @@
     (pin "2" (uuid 21fe2a21-ec30-498e-816d-bb0b0c1748d3))
     (instances
       (project "das-kb4-bara2"
-        (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d/7c81bc9d-f306-4c7f-90ce-10f7b22818e4"
-          (reference "R19") (unit 1)
-        )
         (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d/a2d5569b-3e38-48fc-9c53-ff19306ffa54"
           (reference "R19") (unit 1)
         )
@@ -1019,7 +1007,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 121.92 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 49586d3e-40a4-472d-a775-3e704a548830)
-    (property "Reference" "#FLG01" (at 121.92 81.915 0)
+    (property "Reference" "#FLG04" (at 121.92 81.915 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 121.92 78.74 0)
@@ -1034,9 +1022,6 @@
     (pin "1" (uuid 7453e374-49d9-47fb-b621-1f99d9796f90))
     (instances
       (project "das-kb4-bara2"
-        (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d/f457a5c4-270e-459d-a4f0-150cf90e3909"
-          (reference "#FLG01") (unit 1)
-        )
         (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d/a2d5569b-3e38-48fc-9c53-ff19306ffa54"
           (reference "#FLG04") (unit 1)
         )
@@ -1080,12 +1065,6 @@
         )
       )
       (project "das-kb4-bara2"
-        (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d/f457a5c4-270e-459d-a4f0-150cf90e3909"
-          (reference "C1") (unit 1)
-        )
-        (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d/7c81bc9d-f306-4c7f-90ce-10f7b22818e4"
-          (reference "C15") (unit 1)
-        )
         (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d/a2d5569b-3e38-48fc-9c53-ff19306ffa54"
           (reference "C15") (unit 1)
         )
@@ -1137,9 +1116,6 @@
     (pin "1" (uuid 4b5b5899-be93-4e90-a135-9bf967a47796))
     (instances
       (project "das-kb4-bara2"
-        (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d/7c81bc9d-f306-4c7f-90ce-10f7b22818e4"
-          (reference "#PWR045") (unit 1)
-        )
         (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d/a2d5569b-3e38-48fc-9c53-ff19306ffa54"
           (reference "#PWR045") (unit 1)
         )
@@ -1150,7 +1126,7 @@
   (symbol (lib_id "power:GND") (at 175.26 104.14 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8f4e3a0c-e9dd-4e9e-b2b2-aba6e359d83b)
-    (property "Reference" "#PWR046" (at 168.91 104.14 0)
+    (property "Reference" "#PWR050" (at 168.91 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 171.45 104.14 90)
@@ -1165,9 +1141,6 @@
     (pin "1" (uuid 267f4018-3d8e-4480-a126-98057dc2806d))
     (instances
       (project "das-kb4-bara2"
-        (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d/7c81bc9d-f306-4c7f-90ce-10f7b22818e4"
-          (reference "#PWR046") (unit 1)
-        )
         (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d/a2d5569b-3e38-48fc-9c53-ff19306ffa54"
           (reference "#PWR050") (unit 1)
         )
@@ -1178,7 +1151,7 @@
   (symbol (lib_id "power:GND") (at 40.64 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9ef22580-5ce7-4407-8a9d-9f05d610e991)
-    (property "Reference" "#PWR047" (at 40.64 113.03 0)
+    (property "Reference" "#PWR048" (at 40.64 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 40.64 111.76 0)
@@ -1193,9 +1166,6 @@
     (pin "1" (uuid 06170bf6-e8c3-467a-afb3-0410f773e5eb))
     (instances
       (project "das-kb4-bara2"
-        (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d/7c81bc9d-f306-4c7f-90ce-10f7b22818e4"
-          (reference "#PWR047") (unit 1)
-        )
         (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d/a2d5569b-3e38-48fc-9c53-ff19306ffa54"
           (reference "#PWR048") (unit 1)
         )
@@ -1266,9 +1236,6 @@
     (pin "4" (uuid 6ecaaef7-0adf-4a2e-8d99-4a1f1b497775))
     (instances
       (project "das-kb4-bara2"
-        (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d/7c81bc9d-f306-4c7f-90ce-10f7b22818e4"
-          (reference "U7") (unit 1)
-        )
         (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d/a2d5569b-3e38-48fc-9c53-ff19306ffa54"
           (reference "U7") (unit 1)
         )
@@ -1279,7 +1246,7 @@
   (symbol (lib_id "power:GND") (at 152.4 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b6779d15-5a21-4179-9b4e-743cdc66967e)
-    (property "Reference" "#PWR045" (at 152.4 125.73 0)
+    (property "Reference" "#PWR049" (at 152.4 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 152.4 124.46 0)
@@ -1294,9 +1261,6 @@
     (pin "1" (uuid 4128764b-5a33-41bc-9991-05fa2b0d646b))
     (instances
       (project "das-kb4-bara2"
-        (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d/7c81bc9d-f306-4c7f-90ce-10f7b22818e4"
-          (reference "#PWR045") (unit 1)
-        )
         (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d/a2d5569b-3e38-48fc-9c53-ff19306ffa54"
           (reference "#PWR049") (unit 1)
         )
@@ -1307,7 +1271,7 @@
   (symbol (lib_id "power:GND") (at 198.12 104.14 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b9789de1-070e-4a51-be88-cb4ae289efc5)
-    (property "Reference" "#PWR046" (at 204.47 104.14 0)
+    (property "Reference" "#PWR047" (at 204.47 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 201.93 104.14 90)
@@ -1322,9 +1286,6 @@
     (pin "1" (uuid 66723a7c-544f-43d8-bb8f-65f2719c8d33))
     (instances
       (project "das-kb4-bara2"
-        (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d/7c81bc9d-f306-4c7f-90ce-10f7b22818e4"
-          (reference "#PWR046") (unit 1)
-        )
         (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d/a2d5569b-3e38-48fc-9c53-ff19306ffa54"
           (reference "#PWR047") (unit 1)
         )
@@ -1360,7 +1321,7 @@
   (symbol (lib_id "Device:R_Small") (at 231.14 96.52 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e6f54e2e-0258-4ca5-8362-7e427dc8289b)
-    (property "Reference" "R16" (at 233.68 95.25 0)
+    (property "Reference" "R20" (at 233.68 95.25 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "120" (at 233.68 97.79 0)
@@ -1388,9 +1349,6 @@
     (pin "2" (uuid 79ee879b-f2cb-4244-bea0-d8fe27cb552f))
     (instances
       (project "das-kb4-bara2"
-        (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d/7c81bc9d-f306-4c7f-90ce-10f7b22818e4"
-          (reference "R16") (unit 1)
-        )
         (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d/a2d5569b-3e38-48fc-9c53-ff19306ffa54"
           (reference "R20") (unit 1)
         )

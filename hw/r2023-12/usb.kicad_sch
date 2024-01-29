@@ -2466,9 +2466,6 @@
     (pin "5" (uuid a25a3f80-9cdb-49f2-82c1-1e8284843053))
     (instances
       (project "das-kb4-bara2"
-        (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d"
-          (reference "J2") (unit 1)
-        )
         (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d/f457a5c4-270e-459d-a4f0-150cf90e3909"
           (reference "J2") (unit 1)
         )
@@ -3024,7 +3021,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 99.06 111.76 90) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8a04eeb0-a8cb-4442-8a2c-3c2fdc1ddd07)
-    (property "Reference" "TP2" (at 95.758 106.68 90)
+    (property "Reference" "TP4" (at 95.758 106.68 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "VD33" (at 95.758 109.22 90)
@@ -3042,9 +3039,6 @@
     (pin "1" (uuid df82bb57-650d-4abb-ae40-9c3b0c9c1af7))
     (instances
       (project "das-kb4-bara2"
-        (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d"
-          (reference "TP2") (unit 1)
-        )
         (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d/f457a5c4-270e-459d-a4f0-150cf90e3909"
           (reference "TP4") (unit 1)
         )
@@ -3566,9 +3560,6 @@
     (pin "4" (uuid d76f78b7-19ac-4910-8cdf-6b0d7d621f67))
     (instances
       (project "das-kb4-bara2"
-        (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d"
-          (reference "Y1") (unit 1)
-        )
         (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d/f457a5c4-270e-459d-a4f0-150cf90e3909"
           (reference "Y1") (unit 1)
         )
@@ -3680,9 +3671,6 @@
     (pin "9" (uuid cc703d98-b6c6-4262-90b1-c6dab1d32fc5))
     (instances
       (project "das-kb4-bara2"
-        (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d"
-          (reference "U1") (unit 1)
-        )
         (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d/f457a5c4-270e-459d-a4f0-150cf90e3909"
           (reference "U1") (unit 1)
         )
@@ -3774,9 +3762,6 @@
     (pin "5" (uuid 31fdd05c-dc7a-49e5-8fe2-466961172291))
     (instances
       (project "das-kb4-bara2"
-        (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d"
-          (reference "J1") (unit 1)
-        )
         (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d/f457a5c4-270e-459d-a4f0-150cf90e3909"
           (reference "J1") (unit 1)
         )

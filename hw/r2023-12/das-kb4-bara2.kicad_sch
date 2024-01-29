@@ -652,9 +652,6 @@
         )
       )
       (project "das-kb4-bara2"
-        (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d/f457a5c4-270e-459d-a4f0-150cf90e3909"
-          (reference "C10") (unit 1)
-        )
         (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d"
           (reference "C14") (unit 1)
         )
@@ -723,9 +720,6 @@
         )
       )
       (project "das-kb4-bara2"
-        (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d/f457a5c4-270e-459d-a4f0-150cf90e3909"
-          (reference "C10") (unit 1)
-        )
         (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d"
           (reference "C13") (unit 1)
         )

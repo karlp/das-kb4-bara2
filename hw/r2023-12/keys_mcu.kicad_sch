@@ -3119,9 +3119,6 @@
         )
       )
       (project "das-kb4-bara2"
-        (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d/f457a5c4-270e-459d-a4f0-150cf90e3909"
-          (reference "C1") (unit 1)
-        )
         (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d/7c81bc9d-f306-4c7f-90ce-10f7b22818e4"
           (reference "C7") (unit 1)
         )
@@ -3165,9 +3162,6 @@
         )
       )
       (project "das-kb4-bara2"
-        (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d/f457a5c4-270e-459d-a4f0-150cf90e3909"
-          (reference "C1") (unit 1)
-        )
         (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d/7c81bc9d-f306-4c7f-90ce-10f7b22818e4"
           (reference "C4") (unit 1)
         )
@@ -3375,12 +3369,6 @@
         )
       )
       (project "das-kb4-bara2"
-        (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d/f457a5c4-270e-459d-a4f0-150cf90e3909"
-          (reference "C10") (unit 1)
-        )
-        (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d"
-          (reference "C13") (unit 1)
-        )
         (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d/7c81bc9d-f306-4c7f-90ce-10f7b22818e4"
           (reference "C12") (unit 1)
         )
@@ -3500,9 +3488,6 @@
         )
       )
       (project "das-kb4-bara2"
-        (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d/f457a5c4-270e-459d-a4f0-150cf90e3909"
-          (reference "C1") (unit 1)
-        )
         (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d/7c81bc9d-f306-4c7f-90ce-10f7b22818e4"
           (reference "C2") (unit 1)
         )
@@ -3604,9 +3589,6 @@
     (pin "2" (uuid f5e01b93-832a-4237-bea9-7ed10f90ae99))
     (instances
       (project "das-kb4-bara2"
-        (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d"
-          (reference "D3") (unit 1)
-        )
         (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d/7c81bc9d-f306-4c7f-90ce-10f7b22818e4"
           (reference "D3") (unit 1)
         )
@@ -3997,9 +3979,6 @@
     (pin "2" (uuid 68b93c9d-3db5-4b9c-a81c-924b4d2955ae))
     (instances
       (project "das-kb4-bara2"
-        (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d"
-          (reference "D1") (unit 1)
-        )
         (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d/7c81bc9d-f306-4c7f-90ce-10f7b22818e4"
           (reference "D1") (unit 1)
         )
@@ -4116,7 +4095,7 @@
   (symbol (lib_id "Jumper:Jumper_2_Open") (at 160.02 172.72 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b61691e5-9728-4516-98bf-1f818bc49d6b)
-    (property "Reference" "JP2" (at 160.02 167.64 0)
+    (property "Reference" "JP3" (at 160.02 167.64 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Jumper_2_Open" (at 160.02 170.18 0)
@@ -4132,9 +4111,6 @@
     (pin "2" (uuid c4b44f52-e207-4f13-b5d7-36bf1262509a))
     (instances
       (project "das-kb4-bara2"
-        (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d/a2d5569b-3e38-48fc-9c53-ff19306ffa54"
-          (reference "JP2") (unit 1)
-        )
         (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d/7c81bc9d-f306-4c7f-90ce-10f7b22818e4"
           (reference "JP3") (unit 1)
         )
@@ -4217,9 +4193,6 @@
     (pin "9" (uuid fbfbe45f-8f89-49e3-9a71-b1f0e270bfe2))
     (instances
       (project "das-kb4-bara2"
-        (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d"
-          (reference "U2") (unit 1)
-        )
         (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d/7c81bc9d-f306-4c7f-90ce-10f7b22818e4"
           (reference "U2") (unit 1)
         )
@@ -4283,9 +4256,6 @@
     (pin "2" (uuid e4c93614-296f-4bc6-89ec-aa40b30f963d))
     (instances
       (project "das-kb4-bara2"
-        (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d"
-          (reference "D2") (unit 1)
-        )
         (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d/7c81bc9d-f306-4c7f-90ce-10f7b22818e4"
           (reference "D2") (unit 1)
         )
@@ -4354,12 +4324,6 @@
         )
       )
       (project "das-kb4-bara2"
-        (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d/f457a5c4-270e-459d-a4f0-150cf90e3909"
-          (reference "C10") (unit 1)
-        )
-        (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d"
-          (reference "C13") (unit 1)
-        )
         (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d/7c81bc9d-f306-4c7f-90ce-10f7b22818e4"
           (reference "C8") (unit 1)
         )
@@ -4501,7 +4465,7 @@
   (symbol (lib_id "Device:RotaryEncoder") (at 246.38 40.64 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ff632869-3a07-4648-aa1c-4bacc0b8be62)
-    (property "Reference" "SW2" (at 246.38 29.21 90)
+    (property "Reference" "SW6" (at 246.38 29.21 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Volume" (at 246.38 31.75 90)
@@ -4527,9 +4491,6 @@
     (pin "C" (uuid 21805fc3-17c2-4a01-870a-9c5cbcadb496))
     (instances
       (project "das-kb4-bara2"
-        (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d/f457a5c4-270e-459d-a4f0-150cf90e3909"
-          (reference "SW2") (unit 1)
-        )
         (path "/d0e4eaec-96cb-4a0e-a384-5b3e3f5f8d5d/7c81bc9d-f306-4c7f-90ce-10f7b22818e4"
           (reference "SW6") (unit 1)
         )
